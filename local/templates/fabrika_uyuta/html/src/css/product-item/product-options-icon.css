@@ -1,0 +1,14 @@
+.product-options-icon {
+  width: 24px;
+  height: 24px;
+  background: var(--green);
+  padding: 3px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-options-icon__svg {
+  width: 100%;
+}

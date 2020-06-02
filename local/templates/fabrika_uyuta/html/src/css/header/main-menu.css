@@ -1,0 +1,16 @@
+.main-menu {
+  background: #fff;
+}
+
+.main-menu__inner {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 65px;
+}
+
+@media screen and (max-width: 767px) {
+  .main-menu__inner {
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,26 @@
+.footer-menu__title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.footer-menu__item {
+  font-size: 14px;
+  line-height: 1.2;
+  display: block;
+  margin-bottom: 14px;
+  color: var(--gray-400);
+}
+
+.footer-menu__item:hover {
+  color: #fff;
+}
+
+.footer-menu__text {
+  font-size: 14px;
+  line-height: 1.6;
+  display: block;
+  margin-bottom: 14px;
+  color: var(--gray-400);
+}

@@ -1,0 +1,7 @@
+.old-price {
+  font-size: 14px;
+  display: block;
+  min-height: 14px;
+  text-decoration: line-through;
+  color: var(--gray-400);
+}

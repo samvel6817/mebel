@@ -1,0 +1,32 @@
+.btn-with-icon {
+  display: flex;
+  align-items: center;
+}
+
+.btn-with-icon__icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  background: var(--gray-200);
+  margin-right: 15px;
+  border-radius: 3px;
+}
+
+.btn-with-icon:hover .btn-with-icon__icon-wrapper {
+  background: var(--gray-300);
+}
+
+.btn-with-icon:hover .btn-with-icon__icon path {
+  fill: var(--gray-600);
+}
+
+.btn-with-icon__text {
+  font-size: 14px;
+  color: var(--gray-400);
+}
+
+.btn-with-icon:hover .btn-with-icon__text {
+  color: var(--gray-600);
+}

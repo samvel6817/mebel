@@ -1,0 +1,29 @@
+.main-menu-btn {
+  display: flex;
+  align-items: center;
+  padding: 0 15px 0 30px;
+}
+
+.main-menu-btn__text {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--gray-600);
+}
+
+.main-menu-btn:hover .main-menu-btn__text {
+  color: var(--green);
+}
+
+.main-menu-btn__icon {
+  margin-right: 15px;
+}
+
+.main-menu-btn:hover .main-menu-btn__icon path {
+  fill: var(--green);
+}
+
+@media screen and (max-width: 1199px) {
+  .main-menu-btn {
+    padding: 0 15px 0 20px;
+  }
+}

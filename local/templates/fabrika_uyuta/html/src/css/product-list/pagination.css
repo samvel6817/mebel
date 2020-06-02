@@ -1,0 +1,78 @@
+.pagination {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.pagination_product-list {
+  max-width: 570px;
+  border-right: 1px solid var(--gray-300);
+}
+
+.pagination__pages {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  max-width: 55%;
+}
+
+.pagination__page {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: center;
+  color: var(--gray-400);
+}
+
+.pagination__page:hover {
+  font-weight: 700;
+  color: var(--gray-600);
+  background: var(--gray-200);
+}
+
+.pagination__page_active {
+  font-weight: 700;
+  cursor: default;
+  color: var(--gray-600);
+}
+
+.pagination__page_active:hover {
+  font-weight: 700;
+  color: var(--gray-600);
+  background: transparent;
+}
+
+.pagination__separator {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: center;
+  color: var(--gray-400);
+}
+
+.pagination__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 100%;
+}
+
+.pagination__btn:hover {
+  background: var(--gray-200);
+}
+
+.pagination__btn.pagination__btn_not-next:hover {
+  background: transparent;
+}
+
+.pagination__btn path {
+  fill: var(--gray-600);
+}
+
+.pagination__btn.pagination__btn_not-next path {
+  fill: var(--gray-400);
+}

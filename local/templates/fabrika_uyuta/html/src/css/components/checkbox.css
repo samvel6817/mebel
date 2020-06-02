@@ -1,0 +1,109 @@
+.checkbox__label {
+  position: relative;
+  display: flex;
+}
+
+.checkbox__label_mb {
+  margin-bottom: 5px;
+}
+
+.checkbox__input {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.checkbox__text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  position: relative;
+  display: block;
+  padding: 4px 10px 4px 27px;
+  cursor: pointer;
+  user-select: none;
+  color: var(--gray-400);
+}
+
+.checkbox__text_black {
+  color: var(--gray-600);
+}
+
+.checkbox__text_small {
+  font-size: 12px;
+}
+
+.checkbox__input:checked + .checkbox__text_checked-pink {
+  color: var(--green);
+}
+
+.checkbox__input:checked + .checkbox__text_checked-black {
+  color: var(--gray-600);
+}
+
+.checkbox__text::before {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  display: block;
+  width: 16px;
+  height: 16px;
+  content: '';
+  border: 1px solid #d7d7d7;
+  border-radius: 3px;
+}
+
+.checkbox__text_box-v-center::before {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.checkbox__input:checked + .checkbox__text::before {
+  border-color: var(--green);
+  background-color: var(--green);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 6' width='0.5rem' height='0.375rem'%3E%3Cpath fill='%23fff' d='M7.534 1.706L3.706 5.534a1 1 0 01-1.414 0L.463 3.706a1.001 1.001 0 011.414-1.415L3 3.413 6.12.293a.999.999 0 011.414 0 .998.998 0 010 1.413z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 8px;
+}
+
+.checkbox__text a {
+  margin: 0 2px;
+  cursor: pointer;
+  color: var(--gray-600);
+}
+
+.checkbox__text a:hover {
+  color: var(--green);
+}
+
+.checkbox__text_bold {
+  font-weight: 500;
+}
+
+.checkbox__icon-info {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox__icon-info:hover .checkbox__icon-info-icon {
+  fill: #fff;
+}
+
+.checkbox__icon-info:hover .checkbox__icon-info-bg {
+  fill: var(--green);
+}
+
+@media screen and (max-width: 767px) {
+  .checkbox__label_mb-xs {
+    margin-bottom: 18px;
+  }
+
+  .checkbox__text {
+    font-size: 12px;
+  }
+
+  .checkbox__text_big-font-xs {
+    font-size: 14px;
+  }
+}

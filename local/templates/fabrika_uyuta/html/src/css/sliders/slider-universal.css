@@ -1,0 +1,150 @@
+.slider-universal {
+  font-size: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+.slider-universal.slider-universal__interior {
+  padding-bottom: 60px;
+}
+
+.slider-universal__advice.slider-universal__advice {
+  padding-bottom: 58px;
+}
+
+.slider-universal__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.slider-universal__title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 2px;
+}
+
+.slider-universal__subtitle {
+  font-size: 0.875em;
+  color: var(--gray-400);
+}
+
+.slider-universal__nav {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.slider-universal__nav-prev,
+.slider-universal__nav-next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.125em;
+  height: 3.125em;
+  background: #fff;
+}
+
+.slider-universal__nav-prev {
+  border-radius: 3px 0 0 3px;
+}
+
+.slider-universal__nav-next {
+  border-radius: 0 3px 3px 0;
+}
+
+.slider-universal__nav-prev:hover,
+.slider-universal__nav-next:hover {
+  background: var(--gray-300);
+}
+
+.slider-universal__nav-content {
+  display: flex;
+  align-items: center;
+  padding: 0 1.875em;
+  border-right: 1px solid var(--gray-200);
+  border-left: 1px solid var(--gray-200);
+  background: #fff;
+}
+
+.slider-universal__nav-content:hover {
+  background: var(--gray-300);
+}
+
+.slider-universal__nav-content:focus {
+  border: 2px solid var(--gray-600);
+}
+
+.slider-universal__nav-text {
+  font-size: 12px;
+  font-weight: 700;
+  position: relative;
+  top: 1px;
+  text-transform: uppercase;
+  color: var(--gray-400);
+}
+
+.slider-universal__nav-count {
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1.1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 17px;
+  height: 17px;
+  margin-left: 10px;
+  padding: 5px;
+  white-space: nowrap;
+  color: #fff;
+  border-radius: 3px;
+  background: var(--green);
+}
+
+.slider-universal__slider {
+  flex-basis: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .slider-universal {
+    padding: 25px 0;
+  }
+
+  .swiper-container.slider-universal__slider {
+    padding-left: 15px;
+  }
+
+  .slider-universal__title {
+    font-size: 18px;
+  }
+
+  .slider-universal__text {
+    margin-bottom: 30px;
+    padding: 0 15px;
+  }
+
+  .slider-universal__nav {
+    order: 3;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    padding: 0 15px;
+  }
+
+  .slider-universal__nav-content {
+    flex-grow: 1;
+    justify-content: center;
+    padding: 0;
+    border: none;
+  }
+
+  .slider-universal__slide.swiper-slide {
+    width: 240px;
+    padding-right: 10px;
+  }
+
+  .slider-universal__advice.slider-universal__advice {
+    padding-bottom: 53px;
+  }
+}

@@ -1,0 +1,6 @@
+.vendor-code {
+  font-size: 14px;
+  display: block;
+  white-space: nowrap;
+  color: var(--gray-400);
+}

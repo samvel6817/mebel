@@ -1,0 +1,30 @@
+.top-bar-dropdown {
+  position: relative;
+}
+
+.top-bar-dropdown__list {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  display: none;
+  min-width: 100%;
+  background: var(--gray-550);
+  padding: 10px 0;
+  border-radius: 0 0 3px 3px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.top-bar-dropdown:hover .top-bar-dropdown__list {
+  display: block;
+}
+
+.top-bar-dropdown__item {
+  display: block;
+  color: #fff;
+  font-size: 14px;
+  padding: 7px 20px;
+}
+
+.top-bar-dropdown__item:hover {
+  color: var(--green);
+}

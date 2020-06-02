@@ -1,0 +1,27 @@
+.header__inner {
+  display: flex;
+  align-items: center;
+}
+
+.header__content {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+.header__btns {
+  display: flex;
+}
+
+@media screen and (max-width: 767px) {
+  .header__inner {
+    justify-content: space-between;
+  }
+
+  .header__content {
+    padding-left: 10px;
+    flex-grow: 0;
+  }
+}

@@ -1,0 +1,14 @@
+.footer-payments__title {
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 13px;
+  color: #9d9d9d;
+}
+
+.footer-payments__list {
+  display: flex;
+}
+
+.footer-payments__item {
+  margin-right: 15px;
+}

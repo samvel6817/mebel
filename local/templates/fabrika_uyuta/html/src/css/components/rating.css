@@ -1,0 +1,20 @@
+.rating {
+  margin-right: var(--10px);
+}
+
+.rating__icon {
+  margin-right: var(--1px);
+}
+
+.rating__icon path {
+  fill: #ffb71c;
+}
+
+.rating.rating_0 .rating__icon path,
+.rating.rating_1 .rating__icon:nth-of-type(1) ~ .rating__icon path,
+.rating.rating_2 .rating__icon:nth-of-type(2) ~ .rating__icon path,
+.rating.rating_3 .rating__icon:nth-of-type(3) ~ .rating__icon path,
+.rating.rating_4 .rating__icon:nth-of-type(4) ~ .rating__icon path,
+.rating.rating_5 .rating__icon:nth-of-type(5) ~ .rating__icon path {
+  fill: #d1d1d1;
+}

@@ -1,0 +1,28 @@
+.filter-checkbox-scroll {
+  max-height: 200px;
+  margin-bottom: 20px;
+}
+
+.custom-scroll.scrollbar-inner > .scroll-element .scroll-element_track {
+  background: var(--gray-300);
+}
+
+.custom-scroll.scrollbar-inner > .scroll-element .scroll-bar {
+  cursor: pointer;
+  opacity: 1;
+  background: var(--gray-400);
+}
+
+.custom-scroll.scrollbar-inner > .scroll-element .scroll-bar:hover {
+  background: var(--gray-400);
+}
+
+.custom-scroll.scrollbar-inner > .scroll-element.scroll-y {
+  width: 2px;
+}
+
+.custom-scroll.scrollbar-inner > .scroll-element.scroll-x {
+  bottom: 0;
+  height: 2px;
+  border-radius: 0 0 3px 3px;
+}

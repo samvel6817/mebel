@@ -1,0 +1,11 @@
+.availability {
+  font-size: 14px;
+}
+
+.availability_yes {
+  color: var(--green);
+}
+
+.availability_no {
+  color: var(--orange);
+}

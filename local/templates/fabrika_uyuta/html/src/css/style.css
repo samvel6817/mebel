@@ -1,0 +1,105 @@
+/* Fonts */
+@import url('fonts.css');
+
+/* Normolize CSS and general styles */
+@import url('normolize.css');
+@import url('main.css');
+
+/* Header */
+@import url('header/header.css');
+@import url('header/top-bar.css');
+@import url('header/top-bar-btn.css');
+@import url('header/top-bar-dropdown.css');
+@import url('header/logo.css');
+@import url('header/header-btn.css');
+@import url('header/cart-btn.css');
+@import url('header/main-menu.css');
+@import url('header/catalog-btn.css');
+@import url('header/hamburger.css');
+@import url('header/header-search.css');
+@import url('header/city-select.css');
+@import url('header/main-menu-btn.css');
+@import url('header/mobile-search-btn.css');
+@import url('header/mobile-menu.css');
+@import url('header/mobile-menu-list.css');
+@import url('header/mobile-link.css');
+@import url('header/header-catalog.css');
+@import url('header/search-results.css');
+
+/* Sliders */
+@import url('sliders/main-slider.css');
+@import url('sliders/slider-universal.css');
+
+/* Banners */
+@import url('banners/banner-link.css');
+@import url('banners/banner-catalog.css');
+@import url('banners/banner-with-btn.css');
+
+/* Components */
+@import url('components/btn.css');
+@import url('components/breadcrumbs.css');
+@import url('components/page-title.css');
+@import url('components/h1.css');
+@import url('components/checkbox.css');
+@import url('components/switcher.css');
+@import url('components/rating.css');
+@import url('components/quantity.css');
+@import url('components/vendor-code.css');
+@import url('components/size.css');
+@import url('components/tooltip.css');
+@import url('components/old-price.css');
+@import url('components/price.css');
+@import url('components/page-description.css');
+@import url('components/btn-with-icon.css');
+
+/* Catalog */
+@import url('catalog/catalog.css');
+@import url('catalog/catalog-item.css');
+@import url('catalog/catalog-switcher.css');
+
+/* Footer */
+@import url('footer/footer.css');
+@import url('footer/footer-menu.css');
+@import url('footer/subscribe.css');
+@import url('footer/scroll-top.css');
+@import url('footer/footer-btn.css');
+@import url('footer/footer-payments.css');
+@import url('footer/footer-social.css');
+@import url('footer/copyright.css');
+
+/* Product-list */
+@import url('product-list/categories.css');
+@import url('product-list/pagination.css');
+@import url('product-list/product-list.css');
+@import url('product-list/sorting.css');
+@import url('product-list/filters/filter-bar.css');
+@import url('product-list/filters/filter-checkbox-scroll.css');
+@import url('product-list/filters/filter-dropdown.css');
+@import url('product-list/filters/filter-range.css');
+@import url('product-list/filters/filters.css');
+@import url('product-list/filters/range-input.css');
+@import url('product-list/filters/filter-floating-btn.css');
+@import url('product-list/filters/filters-submit-count.css');
+@import url('product-list/view-control.css');
+
+/* Product-item */
+@import url('product-item/product-item.css');
+@import url('product-item/product-add-btn.css');
+@import url('product-item/marker.css');
+@import url('product-item/availability.css');
+@import url('product-item/product-options-icon.css');
+
+/* Product-detail */
+@import url('product-detail/product-detail.css');
+@import url('product-detail/detail-slider.css');
+@import url('product-detail/detail-add-cart.css');
+@import url('product-detail/cloud-options.css');
+@import url('product-detail/tabs-detail.css');
+@import url('product-detail/info-table.css');
+
+/* Node modules */
+@import url('../../node_modules/swiper/css/swiper.min.css');
+@import url('../../node_modules/tooltipster/dist/css/tooltipster.bundle.min.css');
+@import url('../../node_modules/jquery.scrollbar/jquery.scrollbar.css');
+@import url('../../node_modules/ion-rangeslider/css/ion.rangeSlider.min.css');
+@import url('../../node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css');

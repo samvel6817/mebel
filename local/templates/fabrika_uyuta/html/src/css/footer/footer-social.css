@@ -1,0 +1,39 @@
+.footer-social {
+  display: flex;
+}
+
+.footer-social__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+.footer-social__item:hover {
+  opacity: 0.9;
+}
+
+.footer-social__item_vk {
+  background: #2863a0;
+}
+
+.footer-social__item_ok {
+  background: #f58220;
+}
+
+.footer-social__item_fb {
+  background: #4267b2;
+}
+
+.footer-social__item_tw {
+  background: #1da1f2;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer-social {
+    width: 50%;
+  }
+}

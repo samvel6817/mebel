@@ -1,0 +1,49 @@
+.page-description {
+  padding: 30px 0 45px;
+  font-size: 15px;
+}
+
+.page-description p {
+  color: var(--gray-400);
+  line-height: 1.5;
+  margin: 0 0 1.5em;
+}
+
+.page-description strong {
+  color: var(--gray-500);
+  font-weight: 700;
+}
+
+.page-description ul {
+  color: var(--gray-400);
+  padding-left: 30px;
+  margin: 0 0 1.5em;
+}
+
+.page-description a {
+  color: var(--green);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.page-description a:hover {
+  text-decoration: none;
+}
+
+.page-description h1,
+.page-description h2,
+.page-description h3,
+.page-description h4,
+.page-description h5,
+.page-description h6 {
+  font-size: 18px;
+  margin: 2.5em 0 1em;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 767px) {
+  .page-description {
+    padding: 15px 0 30px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,45 @@
+.filter-bar {
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  padding: 0 40px 0 30px;
+  cursor: pointer;
+  border-bottom: 1px solid var(--gray-300);
+  border-radius: 3px 3px 0 0;
+  background: #fff;
+}
+
+.filter-bar__inner {
+  display: flex;
+}
+
+.filter-bar__text {
+  font-size: 14px;
+  margin-left: 15px;
+}
+
+.filter-bar__more {
+  display: flex;
+  align-items: center;
+}
+
+.filter-bar_active .filter-bar__icon path {
+  fill: var(--green);
+}
+
+.filter-bar_active .filter-bar__text {
+  color: var(--green);
+}
+
+@media screen and (max-width: 1023px) {
+  .filter-bar {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .filter-bar {
+    padding: 0 20px;
+  }
+}

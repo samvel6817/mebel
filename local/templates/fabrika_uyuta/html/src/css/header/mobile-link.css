@@ -1,0 +1,18 @@
+.mobile-link {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.mobile-link_yellow .mobile-link__text {
+  color: #ffe65e;
+  font-size: 14px;
+}
+
+.mobile-link_yellow .mobile-link__icon {
+  margin-right: 10px;
+}
+
+.mobile-link_yellow .mobile-link__icon .mobile-link__icon-path {
+  fill: #ffe65e;
+}

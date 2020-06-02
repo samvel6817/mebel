@@ -1,0 +1,14 @@
+/.htaccess
+/.htaccess.restore
+/bitrix/
+/.cache/
+/cgi-bin/
+/upload
+local/none
+local/vendor
+local/templates/fabrika_uyuta/html/build
+local/templates/fabrika_uyuta/html/node_modules
+/restore.php
+/.idea
+*.xml
+.DS_Store

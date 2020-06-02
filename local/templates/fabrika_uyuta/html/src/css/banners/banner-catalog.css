@@ -1,0 +1,38 @@
+.banner-catalog {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 100%;
+  padding: 30px;
+  border-radius: 3px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-catalog__title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 5px;
+  color: #fff;
+}
+
+.banner-catalog__counter {
+  font-size: 12px;
+  font-weight: 400;
+  padding: 10px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 3px;
+}
+
+.banner-catalog:hover .banner-catalog__counter,
+.banner-catalog:focus .banner-catalog__counter {
+  color: var(--gray-600);
+  background: #fff;
+}
+
+.banner-catalog:hover .banner-catalog__title,
+.banner-catalog:focus .banner-catalog__title {
+  color: var(--gray-600);
+}

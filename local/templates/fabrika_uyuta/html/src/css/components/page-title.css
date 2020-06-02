@@ -1,0 +1,10 @@
+.page-title {
+  display: flex;
+  align-items: flex-end;
+}
+
+.page-title__description {
+  font-size: 14px;
+  margin: 0 0 4px 18px;
+  color: var(--gray-400);
+}

@@ -1,0 +1,94 @@
+.header-btn {
+  display: flex;
+  margin: 0 18px;
+}
+
+.header-btn__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-btn__icon {
+  margin-right: 10px;
+}
+
+.header-btn__icon_mobile {
+  margin-right: 15px;
+}
+
+.header-btn__title {
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+
+.header-btn__title_dark {
+  color: var(--gray-600);
+}
+
+.header-btn__title_white {
+  color: #fff;
+}
+
+a.header-btn__title:hover {
+  color: var(--green);
+}
+
+a.header-btn:hover .header-btn__title {
+  color: var(--green);
+}
+
+.header-btn__subtitle {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.header-btn__subtitle_dark {
+  color: var(--gray-600);
+}
+
+.header-btn__subtitle_white {
+  color: #fff;
+}
+
+a.header-btn:hover .header-btn__subtitle {
+  color: var(--green);
+}
+
+.header-btn__phone {
+  font-size: 16px;
+}
+
+.header-btn__phone_dark {
+  color: var(--gray-600);
+}
+
+.header-btn__phone_white {
+  color: #fff;
+}
+
+.header-btn__phone_bold {
+  font-weight: 700;
+}
+
+.header-btn__phone:hover {
+  color: var(--green);
+}
+
+a.header-btn:hover .header-btn__phone {
+  color: var(--green);
+}
+
+a.header-btn:hover .header-btn__icon path {
+  fill: var(--green);
+}
+
+@media screen and (max-width: 1199px) {
+  .header-btn {
+    margin: 0 15px;
+  }
+
+  .header-btn_mobile-menu {
+    margin: 0;
+    padding: 13px 15px;
+  }
+}

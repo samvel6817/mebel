@@ -1,0 +1,42 @@
+.top-bar {
+  background: var(--gray-600);
+  position: relative;
+  z-index: 10;
+}
+
+.top-bar__inner {
+  display: flex;
+}
+
+.top-bar__item {
+  flex-grow: 1;
+}
+
+.top-bar__menu-hamburger {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 7px 0 7px;
+}
+
+.top-bar__menu-hamburger:hover {
+  cursor: pointer;
+  background: var(--gray-500);
+}
+
+.top-bar__menu-hamburger-text {
+  display: block;
+  color: #fff;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 1023px) {
+  .top-bar__item_sm {
+    max-width: 70px;
+  }
+
+  .top-bar__item_search {
+    width: 310px;
+  }
+}

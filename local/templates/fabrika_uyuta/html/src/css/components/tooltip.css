@@ -1,0 +1,68 @@
+.tooltipster-sidetip.tooltip-theme .tooltipster-box {
+  border: 1px solid var(--gray-300);
+  border-radius: 3px;
+  background: #fff;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.tooltipster-sidetip.tooltip-theme.tooltipster-top .tooltipster-box {
+  margin-bottom: 0;
+}
+
+.tooltipster-sidetip.tooltip-theme .tooltipster-content {
+  font-size: 12px;
+  padding: 6px 10px;
+  color: var(--gray-400);
+}
+
+.tooltipster-sidetip.tooltip-theme.tooltipster-top .tooltipster-arrow {
+  top: calc(100% - 1px);
+  width: 12px;
+  margin-left: -6px;
+}
+
+.tooltipster-sidetip.tooltip-theme.tooltipster-top .tooltipster-arrow .tooltipster-arrow-border {
+  border-width: 6px;
+  border-top-color: var(--gray-300);
+}
+
+.tooltipster-sidetip.tooltip-theme.tooltipster-top .tooltipster-arrow .tooltipster-arrow-background {
+  top: -1px;
+  border-width: 6px;
+  border-top-color: #fff;
+}
+
+.tooltipster-sidetip.tooltip-theme.tooltipster-bottom .tooltipster-arrow {
+  top: -3px;
+  width: 12px;
+  height: 12px;
+  margin-left: -6px;
+}
+
+.tooltipster-sidetip.tooltip-theme.tooltipster-bottom .tooltipster-arrow-border {
+  border-width: 6px;
+  border-bottom-color: var(--gray-300);
+}
+
+.tooltipster-sidetip.tooltip-theme.tooltipster-bottom .tooltipster-arrow .tooltipster-arrow-background {
+  top: 1px;
+  border-width: 6px;
+  border-bottom-color: #fff;
+}
+
+.tooltipster-sidetip.tooltip-theme.tooltipster-bottom .tooltipster-arrow-uncropped {
+  top: 0;
+}
+
+.tooltip-theme .black {
+  color: var(--gray-600);
+}
+
+.tooltip-theme a {
+  text-decoration: underline;
+  color: var(--green);
+}
+
+.tooltip-theme a:hover {
+  text-decoration: none;
+}

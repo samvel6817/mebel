@@ -1,0 +1,42 @@
+.scroll-top {
+  display: flex;
+  align-items: center;
+  padding: 10px 0 10px 10px;
+}
+
+.scroll-top__text {
+  font-size: 12px;
+  font-weight: 700;
+  margin-right: 9px;
+  text-transform: uppercase;
+  color: var(--gray-400);
+}
+
+.scroll-top__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 3px;
+  border: 2px solid var(--gray-500);
+  background-color: var(--gray-600);
+}
+
+.scroll-top__btn-icon path {
+  fill: var(--gray-400);
+}
+
+.scroll-top:hover .scroll-top__btn {
+  background-color: var(--gray-500);
+}
+
+.scroll-top:hover .scroll-top__btn-icon path {
+  fill: #fff;
+}
+
+@media screen and (max-width: 1023px) {
+  .scroll-top {
+    padding: 10px 0 10px 30px;
+  }
+}

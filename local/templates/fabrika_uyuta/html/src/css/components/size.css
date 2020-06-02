@@ -1,0 +1,30 @@
+.size {
+  display: grid;
+  grid-row-gap: 7px;
+}
+
+.size__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.size__name {
+  font-size: 14px;
+  color: var(--gray-400);
+  margin-right: 7px;
+}
+
+.size__separator {
+  display: block;
+  height: 1px;
+  border: 1px dotted transparent;
+  border-bottom-color: var(--gray-400);
+  flex-grow: 1;
+}
+
+.size__value {
+  font-size: 14px;
+  color: var(--gray-600);
+  margin-left: 7px;
+}

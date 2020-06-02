@@ -1,0 +1,124 @@
+.sorting {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0 10px 0 29px;
+}
+
+.sorting_interiors {
+  flex-grow: 1;
+  padding: 0;
+}
+
+.sorting__text {
+  font-size: 14px;
+  color: var(--gray-400);
+}
+
+.sorting__btn {
+  display: flex;
+  align-items: center;
+  padding: 17px;
+}
+
+.sorting_interiors .sorting__btn {
+  justify-content: space-between;
+  width: 100%;
+  padding: 17px 35px;
+}
+
+.sorting__btn-text {
+  font-size: 14px;
+  font-weight: 700;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: var(--gray-600);
+}
+
+.sorting__btn-icon {
+  margin-left: 10px;
+}
+
+.sorting__dropdown {
+  position: absolute;
+  z-index: 10;
+  top: 100%;
+  left: 0;
+  display: none;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px 0;
+  border-top: 1px solid var(--gray-300);
+  border-radius: 0 0 3px 3px;
+  background: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.sorting__label {
+  display: flex;
+  padding: 10px 29px;
+  cursor: pointer;
+}
+
+.sorting__item-text {
+  font-size: 14px;
+  display: block;
+  color: var(--gray-400);
+}
+
+.sorting__label:hover .sorting__item-text {
+  color: var(--gray-600);
+}
+
+.sorting__input:checked + .sorting__item-text {
+  color: var(--gray-600);
+}
+
+@media screen and (max-width: 1199px) {
+  .sorting_interiors .sorting__btn {
+    padding: 17px 30px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .sorting_interiors .sorting__btn {
+    padding: 17px 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sorting {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .sorting__btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 17px 0;
+  }
+
+  .sorting_interiors .sorting__btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px 17px;
+  }
+
+  .sorting_interiors {
+    width: 100%;
+    padding: 0;
+  }
+
+  .sorting_interiors .sorting__dropdown {
+    position: relative;
+    top: 0;
+    margin-top: 15px;
+  }
+}

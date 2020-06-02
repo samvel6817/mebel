@@ -1,0 +1,23 @@
+.info-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.info-table__td-title {
+  font-size: 14px;
+  color: var(--gray-400);
+}
+
+.info-table__td-value {
+  font-size: 14px;
+  color: var(--gray-600);
+}
+
+.info-table__tr:not(:last-of-type) .info-table__td-title,
+.info-table__tr:not(:last-of-type) .info-table__td-value {
+  border-bottom: 1px solid var(--gray-200);
+}
+
+.info-table__tr td {
+  padding: 12px 15px;
+}
