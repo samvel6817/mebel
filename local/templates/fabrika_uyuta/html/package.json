@@ -23,7 +23,7 @@
     "jquery.scrollbar": "^0.2.11",
     "mark.js": "^8.11.1",
     "normalize.css": "^8.0.0",
-    "swiper": "^5.4.1",
+    "swiper": "^6.5.1",
     "tooltipster": "^4.2.7"
   },
   "devDependencies": {
